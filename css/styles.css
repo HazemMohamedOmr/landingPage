@@ -75,12 +75,25 @@ section {
 .navbar__menu ul {
     display: flex;
     padding: 0 4em;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 35em){
+    .navbar__menu ul {
+        padding: 0 1em;
+    }
 }
 
 .navbar__menu li {
     display: inline-block;
     color: #000;
     margin-right: 1em;
+}
+
+@media only screen and (max-width: 35em){
+    .navbar__menu li {
+        margin-right: 0;
+    }
 }
 
 .navbar__menu .menu__link {
