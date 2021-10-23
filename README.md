@@ -5,8 +5,8 @@
 - [Project Title](#landing-page-project)
 - [Table of contents](#table-of-contents)
 - [Project Description](#project-description)
-- [Usage](#usage)
 - [Dependencies](#dependencies)
+- [Usage](#usage)
 
 ## Project Description
 
@@ -14,9 +14,7 @@ This project provide a multi-section landing page, with a dynamically updating n
 
 It provide an active state for each section displayed on the viewport while highlighting the current section in the navigation bar.
 
-## Usage
-
-This project goal is to create a dynamic navbar based on number of section that is added to the page.
+This project was built without any external library.
 
 ## Dependencies
 
@@ -25,3 +23,7 @@ HTML5.
 CSS3.
 
 Javascript Vanilia.
+
+## Usage
+
+This project goal is to create a dynamic navbar based on number of section that is added to the page.
