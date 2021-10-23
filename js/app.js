@@ -13,7 +13,10 @@ const mySections = document.querySelectorAll('.section');
         listlink.textContent = section.getAttribute('data-nav');
 
         // adding href for navigation
-        listlink.setAttribute('href', "#" + section.getAttribute('id'));
+        // listlink.setAttribute('href', "#" + section.getAttribute('id'));
+        listlink.addEventListener('click', ()=>{
+            section.scrollIntoView({behavior: "smooth"});
+        })
         listlink.classList.add('menu__link'); // styling anchor tag
 
         listItem.appendChild(listlink);
